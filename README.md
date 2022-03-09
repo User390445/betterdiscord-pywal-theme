@@ -1,0 +1,1 @@
+# betterdiscord-pywal-theme
