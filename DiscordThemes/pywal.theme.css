@@ -1,0 +1,50 @@
+
+.theme-dark {
+	--text-normal: var(--foreground);
+	--text-muted: var(--color2);
+	--text-link: var(--color3);
+
+	--header-primary: var(--color6);
+	--header-secondary: var(--foreground);
+
+	--background-primary: rgb(calc((var(--background-red) + 0.040) * 255), calc((var(--background-green) + 0.040) * 255) , calc((var(--background-blue) + 0.040) * 255));
+	--background-secondary: rgb(calc((var(--background-red) + 0.020) * 255), calc((var(--background-green) + 0.020) * 255) , calc((var(--background-blue) + 0.020) * 255));
+	--background-secondary-alt: rgb(calc((var(--background-red) - 0.010) * 255), calc((var(--background-green) - 0.010) * 255) , calc((var(--background-blue) - 0.010) * 255));
+	--background-tertiary: var(--background);
+	--background-accent: rgb(calc((var(--background-red) - 0.010) * 255), calc((var(--background-green) - 0.010) * 255) , calc((var(--background-blue) - 0.010) * 255));
+	--background-floating: var(--background);
+
+	--background-modifier-hover: var(--color1);
+	--background-modifier-active: var(--color2);
+	--background-modifier-selected: var(--color2);
+	--background-modifier-accent: rgb(calc((var(--background-red) + 0.050) * 255), calc((var(--background-green) + 0.050) * 255) , calc((var(--background-blue) + 0.050) * 255));
+
+	--background-message-hover: rgb(calc((var(--background-red) + 0.030) * 255), calc((var(--background-green) + 0.030) * 255) , calc((var(--background-blue) + 0.030) * 255)); 
+	--background-mentioned: rgb(calc((var(--background-red) + 0.020) * 255), calc((var(--background-green) + 0.020) * 255) , calc((var(--background-blue) + 0.020) * 255));
+	--background-mentioned-hover: rgb(calc((var(--background-red) + 0.010) * 255), calc((var(--background-green) + 0.010) * 255) , calc((var(--background-blue) + 0.010) * 255)); 
+
+	--interactive-normal: var(--color3);
+	--interactive-hover: var(--color5);
+	--interactive-active: var(--color6);
+
+	--channeltextarea-background: rgb(calc((var(--background-red) - 0.010) * 255), calc((var(--background-green) - 0.010) * 255) , calc((var(--background-blue) - 0.010) * 255));
+
+	--channels-default: var(--color2);
+
+	--scrollbar-thin-thumb: var(--color2);
+
+	--scrollbar-auto-thumb: var(--color2);
+	--scrollbar-auto-track: var(--background);
+}
+
+:root {
+	--font-primary: "JetBrains Mono", Sans-serif;
+}
+
+.theme-dark .peopleColumn-1wMU14 {
+	background-color: rgb(calc((var(--background-red) + 0.040) * 255), calc((var(--background-green) + 0.040) * 255) , calc((var(--background-blue) + 0.040) * 255));
+}
+
+.theme-dark .selected-1Drb7Z > .childWrapper-1j_1ub {
+	background-color: var(--color2) !important;
+}
